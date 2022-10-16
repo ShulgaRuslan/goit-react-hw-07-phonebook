@@ -3,7 +3,7 @@ import { nanoid } from 'nanoid';
 import {
   useGetContactsQuery,
   useAddContactMutation,
-} from 'Redux/contactsAPI';
+} from 'contactsStorage/contactsAPI';
 import Notiflix from 'notiflix';
 
 import styles from './ContactForm.module.css';

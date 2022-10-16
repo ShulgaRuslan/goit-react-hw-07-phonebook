@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import { useDeleteContactMutation } from 'Redux/contactsAPI';
+import { useDeleteContactMutation } from 'contactsStorage/contactsAPI';
 
 import styles from './ContactsListItem.module.css';
 

@@ -1,5 +1,5 @@
 import { useSelector } from 'react-redux';
-import { useGetContactsQuery } from 'Redux/contactsAPI';
+import { useGetContactsQuery } from 'contactsStorage/contactsAPI';
 import { ContactsListItem } from './ContactsListItem';
 
 import styles from './ContactsList.module.css';
